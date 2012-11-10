@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /~mute/php/perfphp_fw/web
+  RewriteBase /~mute/php/perfphp_fw/test
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.*)$ index.php [QSA,L]
+  RewriteRule ^(.*)$ mytest.php [QSA,L]
 </IfModule>
